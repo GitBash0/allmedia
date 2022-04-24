@@ -1,0 +1,22 @@
+{
+    "name" : "al media",
+    "short_name" : "My App",
+    "start_url" : ".",
+    "background_color" : "blue",
+    "theme_color" : "#009578",
+    "display" : "standalone",
+    "icons" :[
+        {
+         
+            "src" :"img/icon1.png",
+            "sizes" : "64x64",
+            "type" : "image/png"
+        },
+        {
+            "src" :"img/icon2.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+
+        }
+    ]
+}
