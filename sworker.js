@@ -3,7 +3,7 @@ self.addEventListener("install",e=>{
     e.WaitUntil(
         caches.open("static").then(cache=>{
             return cache.addAll([
-                "./",
+                "./index.html",
             "./style.css",
             "./img/icon1.png",
             "./img/icon2.png",

@@ -1,6 +1,6 @@
 if("serviceWorker" in navigator){
     
-    navigator.serviceWorker.register("./script/sworker.js").then(registration=>{
+    navigator.serviceWorker.register("sworker.js").then(registration=>{
         console.log("Service worker registerd")
         console.log(registration);
 
@@ -11,5 +11,5 @@ if("serviceWorker" in navigator){
     })
 
 }else{
-    alert("servide worker not found")
+    alert("service worker not found")
 }
