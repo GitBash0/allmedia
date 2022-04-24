@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width= , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./style.css">
@@ -14,7 +14,7 @@
              <div class="background">
              <!--Navbar-->
              <section>
-                <nav class="navbar navbar-light bg-light fixed-top">
+                <nav class="navbar navbar-light  fixed-top" style="background-color: aqua;">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">Allmedia</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -28,7 +28,7 @@
                         <div class="offcanvas-body">
                           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">social</a>
@@ -50,14 +50,20 @@
 
              <!--First section-->
              <section>
-                <div class="container">
+                <div class="container" id="home">
                     <div class="row">
-                        <div class="page1  col-sm-2 col-md-4 col-lg-3">
-                            <a href=""><img src="./img/hotstar.jpg" alt=""></a>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <a href="https://www.hotstar.com/in"><img src="./img/hotstar.jpg" alt="" class="page1"></a>
                         </div>
-                        <div class="page1  col-sm-2 col-md-4 col-lg-3"></div>
-                        <div class="page1 col-sm-2 col-md-4 col-lg-3"></div>
-                        <div class="page1  col-sm-2 col-md-4 col-lg-3"></div>
+                        <div class=" col-6 col-md-4 col-lg-3">
+                            <a href="https://jiotv.com/"><img src="./img/jio tv.jpg" alt="" class="page1"></a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <a href="https://www.tataplay.com/"><img src="./img/tata.jpg" alt="" class="page1"></a>
+                        </div>
+                        <div class=" col-6 col-md-4 col-lg-3">
+                            <a href="https://vimoviesandtv.in/"><img src="./img/vi.png" alt="" class="page1"></a>
+                        </div>
                         </div>
                     </div>
                 </div>
