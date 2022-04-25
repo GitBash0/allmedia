@@ -14,7 +14,8 @@ self.addEventListener("install",e=>{
             "./Bootstrap/bootstrap.css",
             "./Bootstrap/bootstrap.js",
             "./index2.html" ,
-            "./img/4K-Black-Background-Design-Best-Wallpaper-40658.jpg"]);
+            "./img/4K-Black-Background-Design-Best-Wallpaper-40658.jpg",
+            ]);
         })
     )
 
