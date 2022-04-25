@@ -15,6 +15,12 @@ self.addEventListener("install",e=>{
             "./Bootstrap/bootstrap.js",
             "./index2.html" ,
             "./img/4K-Black-Background-Design-Best-Wallpaper-40658.jpg",
+            "./index3.html",
+            "./img/myairtel.webp",
+            "./img/vi.webp",
+            "./img/myjio.png",
+            "./img/bsnl.webp",
+            "./img/git.jpg"
             ]);
         })
     )
