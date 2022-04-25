@@ -12,7 +12,9 @@ self.addEventListener("install",e=>{
             "./img/tata.jpg",
             "./img/vi.png",
             "./Bootstrap/bootstrap.css",
-            "./Bootstrap/bootstrap.js" ]);
+            "./Bootstrap/bootstrap.js",
+            "./index2.html" ,
+            "./img/4K-Black-Background-Design-Best-Wallpaper-40658.jpg"]);
         })
     )
 
