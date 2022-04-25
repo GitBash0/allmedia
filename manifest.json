@@ -1,6 +1,6 @@
 {
-    "name" : "al media",
-    "short_name" : "My App",
+    "name" : "My app",
+    "short_name" : "All media",
     "start_url" : "./index.html",
     "background_color" : "blue",
     "theme_color" : "#2c2e2c",
